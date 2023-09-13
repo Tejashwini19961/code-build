@@ -3,11 +3,10 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14
+      nodejs: 14  # Use Node.js as a runtime just as a placeholder
   build:
     commands:
-      - npm install
-      - npm run build
-  artifacts:
-    files:
-      - '**/*'
+      - echo "HTML code run completed."
+
+artifacts:
+  files: '**/*'
